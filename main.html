@@ -1,0 +1,49 @@
+echo "<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>B. Yadav's Personal Webpage</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #333; color: #fff; text-align: center; padding: 1em 0; }
+        .container { width: 80%; margin: 20px auto; background-color: #fff; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .bio, .interests, .contact { margin-bottom: 20px; }
+        h2 { border-bottom: 2px solid #333; padding-bottom: 5px; }
+        ul { list-style-type: none; padding: 0; }
+        ul li { background: #eee; margin: 5px 0; padding: 10px; }
+        footer { text-align: center; padding: 10px 0; background-color: #333; color: #fff; }
+        a { color: #333; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>B. Yadav</h1>
+    </header>
+    <div class='container'>
+        <section class='bio'>
+            <h2>Bio</h2>
+            <p>I am a Mechanical Engineering graduate who is very interested in Machine Learning and Data Science.</p>
+        </section>
+        <section class='interests'>
+            <h2>Interests & Hobbies</h2>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Data Science</li>
+                <li>Mechanical Engineering</li>
+            </ul>
+        </section>
+        <section class='contact'>
+            <h2>Contact Information</h2>
+            <p>You can reach me at: <a href='mailto:b.yadav@example.com'>b.yadav@example.com</a></p>
+            <p>Connect with me on <a href='https://www.linkedin.com/in/yourprofile'>LinkedIn</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 B. Yadav. All rights reserved.</p>
+    </footer>
+</body>
+</html>" > index.html
+git add index.html
+git commit -m "Initial commit"
+git push origin main
